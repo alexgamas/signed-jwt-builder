@@ -32,6 +32,8 @@ writing RSA key
 ## Run
 
 ```bash
+$ pip3 install -r requirements.txt
+
 $ python3 create-jwt.py
 
 Token will expire at:  17/09/2019, 23:42:36
