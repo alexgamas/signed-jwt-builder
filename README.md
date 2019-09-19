@@ -34,11 +34,21 @@ writing RSA key
 ```bash
 $ pip3 install -r requirements.txt
 
-$ python3 create-jwt.py
+$ python3 ./create-jwt.py
+Token will expire at:  28/09/2019, 23:48:39
 
-Token will expire at:  17/09/2019, 23:42:36
 JWT ------------------------------------------
-eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI0MjU1NTUxMjEyIiwiaXNzIjoiaHR0cHM6Ly93d3cuWW91ckJyYW5kLmNvbSIsInByZWZlcnJlZF91c2VybmFtZSI6IkpvaG5Eb2UiLCJwaG9uZV9udW1iZXIiOiIrMS0xMC0zNDQtMzc2NTMzMyIsImV4cCI6MTU2ODc3NDU1Ni42MTkxMTUsImlhdCI6MTU2ODY4ODE1Ni42MTkxMTV9.0Tw9NCjm4rq3zVnQF5FY2lQlwspvHbvwKRprb3S0eoTKOMKggp8wDCukSSQle37tAS_LHLvZFhdLyA6GsUuhwNSPbE2hcW9fFLYT2tTCGymGjI7dXtxEU_kfqp_v3RVwmlMxH5-vJnCgoVhjvxVGzCotrfnC0ES8wn7uPOegNEIAshAocn9rJQmGwPG2vI49uVo9dqyVAomFzetduY8wSEv0wtF0IjLcE5ORQgLHxRYfTzGQnDIunl48W0f46PpeOF96TlSf4SVb-BgJRX-qCrbMLcOa5alyEiemdGNmF0P-P7NAfFIKb9kJJogcqMYXWlEZXrBjbu_jz0XmtgbC4Q
+eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI0MjU1NTUxMjEyIiwiaXNzIjoiaHR0cHM6Ly93d3cuWW91ckJyYW5kLmNvbSIsInByZWZlcnJlZF91c2VybmFtZSI6IkpvaG5Eb2UiLCJwaG9uZV9udW1iZXIiOiIrMS0xMC0zNDQtMzc2NTMzMyIsImV4cCI6MTU2OTcyNTMxOSwiaWF0IjoxNTY4ODYxMzE5fQ.C_sD9QQRE24i6cHtKPaglFi9OdQNf15YVGZV09gQ8GQqXSTP2NhBpe3en4qFpdZ5rXfUQSPav81Ulz9-8SiQNcow1drJbTPBZ95Jk4HN6vNU-Qq5Cr-MAmP_eGvhs_yc43n-1WEEfrr7qrDMGbBrsKDjvi325imv0mj-lQurPIx6Iw_sh3y9VafE_SdHuQPC0Cs3d9Ul9EvgvgOKzYYVv0Sy5t_BKV2Rw6m7qkZqi-kP_T0tOoSUGGz3UeVpoii20ESp5mXE3sHBBcuMrqIJxXMP560JVJ-FxlVVsFSqMhnQvI-QnypsqnSwB6sY1Eax8pFi8wiz2BoZQpJTOhyxAw
 /JWT ------------------------------------------
-Chack:  VALID
+
+Check:  VALID
+
+Payload:
+{   'exp': 1569725319,
+    'iat': 1568861319,
+    'iss': 'https://www.YourBrand.com',
+    'phone_number': '+1-10-344-3765333',
+    'preferred_username': 'JohnDoe',
+    'sub': '4255551212'}
+
 ```
